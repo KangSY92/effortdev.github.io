@@ -6,9 +6,9 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 강태준
+name: 강석영
 title: Software Engineer
-email: kindxowns@gmail.com
+email: tjrdud471@naver.com
 website: https://github.com/effortdev
 website_title: Github
 
@@ -60,17 +60,18 @@ content:
       - layout: top-left
         title: 환승마켓
         sub_title: 중고거래 시스템 (팀 프로젝트 · 6인 · 3주)
-        caption: Spring Boot · Spring Security · JWT · React(Vite) · WebSocket · Redis · Spring Batch · Docker · GitHub Actions · GCP
+        caption: Spring Boot · Spring Security · JWT · React(Vite) · Spring Batch
         link: http://hsmarket.duckdns.org/
         link_text: 🚀 [환승마켓 서비스 바로가기]
         quote: >
-          실시간 통신과 인프라 자동화를 경험한 거래 플랫폼
+          사용자 중심 상품 흐름을 구현한 중고거래 플랫폼
         description: |
-          - WebSocket과 Redis를 활용한 다중 접속 환경의 실시간 채팅 시스템 구현
-          - 상품 '찜하기(관심 등록)' 시 해당 사용자에게 알림 제공하는 기능 구현
-          - Spring Batch를 연계한 대용량 데이터 주기적 처리 및 자동화
-          - GCP 인프라 환경 구축 및 Docker를 활용한 서버 배포
-          - 메인 레포지토리 관리, Git 협업 환경(브랜치 전략 등) 세팅 및 GitHub Actions 기반 CI/CD 자동화 파이프라인 구축
+          - 상품 등록 / 목록 / 상세 / 수정 / 삭제 기능을 포함한 상품 CRUD 전체 개발
+          - React 기반 상품 상세 페이지 UI 및 상태 관리 로직 설계
+          - JWT 인증 기반 사용자 권한 처리 (작성자만 수정/삭제 가능)
+          - 상품 상태(판매중/예약중/판매완료) 변경 기능 구현 및 UI 반영
+          - 이미지 업로드 및 미리보기 기능 구현 (다중 이미지 처리 구조 설계)
+          - 신고 기능 구 및 중복 신고 방지 로직 구현
 
       - layout: top-left
         title: 부동산 실거래 조회 서비스
